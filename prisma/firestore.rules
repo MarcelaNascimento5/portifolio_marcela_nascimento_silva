@@ -1,0 +1,121 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // ===============================================================
+    // Assumed Data Model
+    // ===============================================================
+    //
+    // Collection: users
+    // Document ID: userId
+    // Fields:
+    //   - focusMode: bool (required)
+    //   - syncScroll: bool (required)
+    //   - showStatusBar: bool (required)
+    //   - showNavbar: bool (required)
+    //   - updatedAt: timestamp (optional)
+    //
+    // Collection: files
+    // Document ID: fileId
+    // Fields:
+    //   - id: string (required)
+    //   - name: string (required, max 100 chars)
+    //   - type: string (required, 'file' or 'folder')
+    //   - parentId: string (optional)
+    //   - content: string (optional, max 1MB)
+    //   - ownerId: string (required, matches auth.uid)
+    //   - updatedAt: timestamp (optional)
+    //
+    // ===============================================================
+
+    // ===============================================================
+    // Helper Functions
+    // ===============================================================
+    
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function isDocOwner() {
+      return isAuthenticated() && request.auth.uid == resource.data.ownerId;
+    }
+
+    function isAdmin() {
+      return isAuthenticated() &&
+        (get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin' ||
+          (request.auth.token.email == "nascimentomarcela30@gmail.com" && request.auth.token.email_verified == true));
+    }
+
+    function hasRequiredFields(fields) {
+      return request.resource.data.keys().hasAll(fields);
+    }
+
+    function hasOnlyAllowedFields(fields) {
+      return request.resource.data.keys().hasOnly(fields);
+    }
+
+    // ===============================================================
+    // Domain Validators
+    // ===============================================================
+
+    function isValidUserPreferences(data) {
+      return hasRequiredFields(['focusMode', 'syncScroll', 'showStatusBar', 'showNavbar']) &&
+             data.focusMode is bool &&
+             data.syncScroll is bool &&
+             data.showStatusBar is bool &&
+             data.showNavbar is bool;
+    }
+
+    function isValidFileItem(data) {
+      return hasRequiredFields(['id', 'name', 'type', 'ownerId']) &&
+             data.id is string && data.id.size() > 0 &&
+             data.name is string && data.name.size() > 0 && data.name.size() <= 100 &&
+             data.type in ['file', 'folder'] &&
+             data.ownerId == request.auth.uid &&
+             (!('content' in data) || (data.content is string && data.content.size() <= 1048576));
+    }
+
+    function isValidStorageFile(data) {
+      return hasRequiredFields(['id', 'name', 'url', 'ownerId']) &&
+             data.id is string &&
+             data.name is string && data.name.size() > 0 &&
+             data.url is string && isValidUrl(data.url) &&
+             data.ownerId == request.auth.uid;
+    }
+
+    // ===============================================================
+    // Rules
+    // ===============================================================
+
+    match /users/{userId} {
+      allow read: if isOwner(userId) || isAdmin();
+      allow create: if isOwner(userId) && isValidUserPreferences(request.resource.data);
+      allow update: if isOwner(userId) && isValidUserPreferences(request.resource.data);
+    }
+
+    match /files/{fileId} {
+      allow read: if isAuthenticated() && (resource.data.ownerId == request.auth.uid || isAdmin());
+      allow create: if isAuthenticated() && isValidFileItem(request.resource.data);
+      allow update: if isAuthenticated() && isDocOwner() && isValidFileItem(request.resource.data);
+      allow delete: if isAuthenticated() && isDocOwner();
+    }
+
+    match /actionLogs/{logId} {
+      allow read: if isAuthenticated() && (resource.data.userId == request.auth.uid || isAdmin());
+      allow create: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+    }
+
+    match /storageFiles/{fileId} {
+      allow read: if isAuthenticated() && (resource.data.ownerId == request.auth.uid || isAdmin());
+      allow create: if isAuthenticated() && isValidStorageFile(request.resource.data);
+      allow delete: if isAuthenticated() && resource.data.ownerId == request.auth.uid;
+    }
+    
+    match /test/connection {
+      allow read: if true;
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "entities": {
+    "UserPreferences": {
+      "title": "User Preferences",
+      "description": "User's application settings and preferences.",
+      "type": "object",
+      "properties": {
+        "focusMode": { "type": "boolean" },
+        "syncScroll": { "type": "boolean" },
+        "showStatusBar": { "type": "boolean" },
+        "showNavbar": { "type": "boolean" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["focusMode", "syncScroll", "showStatusBar", "showNavbar"]
+    },
+    "FileItem": {
+      "title": "File Item",
+      "description": "A file or folder in the user's workspace.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "type": { "type": "string", "enum": ["file", "folder"] },
+        "parentId": { "type": "string" },
+        "content": { "type": "string" },
+        "ownerId": { "type": "string" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "name", "type", "ownerId"]
+    },
+    "ActionLog": {
+      "title": "Action Log",
+      "description": "A record of a user action.",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "action": { "type": "string" },
+        "details": { "type": "string" },
+        "timestamp": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "action", "timestamp"]
+    },
+    "StorageFile": {
+      "title": "Storage File",
+      "description": "A record of an uploaded file in Cloud Storage.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "url": { "type": "string" },
+        "size": { "type": "number" },
+        "type": { "type": "string" },
+        "ownerId": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "name", "url", "ownerId"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserPreferences",
+      "description": "Stores individual user settings."
+    },
+    "/files/{fileId}": {
+      "schema": "FileItem",
+      "description": "Stores files and folders owned by users."
+    },
+    "/actionLogs/{logId}": {
+      "schema": "ActionLog",
+      "description": "Stores user activity logs."
+    },
+    "/storageFiles/{fileId}": {
+      "schema": "StorageFile",
+      "description": "Stores metadata for uploaded files."
+    }
+  }
+}
