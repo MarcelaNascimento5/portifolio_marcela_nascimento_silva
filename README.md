@@ -24,6 +24,9 @@ Atualmente cursando o 2º período de Análise e Desenvolvimento de Sistemas na 
 #### 💻 Linguagens e Tecnologias
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![CSS](https://img.shields.io/badge/css-%23663399.svg?style=for-the-badge&logo=css&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
  
 #### 🗄️ Banco de Dados
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -44,7 +47,9 @@ Atualmente cursando o 2º período de Análise e Desenvolvimento de Sistemas na 
 #### 🤖 Inteligência Artificial
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Predição de Churn** | Algoritmo de classificação para prever saída de clientes. | [Ver Projeto](./projeto-ia-churn/) |
+| **MVP+** | Clone do website de Markdown Live StackEdit  . | [Ver Projeto](https://github.com/MarcelaNascimento5/PRISMA.git)) |
+| :--- | :--- | :---: |
+| **Engenharia Reversa** | Clone do website de Markdown Live StackEdit sem visualizar o código fonte . | [Ver Projeto](https://github.com/MarcelaNascimento5/PRISMA.git)) |
  
 ---
  
