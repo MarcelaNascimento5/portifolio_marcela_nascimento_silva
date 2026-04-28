@@ -39,17 +39,13 @@ Atualmente cursando o 2º período de Análise e Desenvolvimento de Sistemas na 
  
 ### 📂 Portfólio de Projetos
  
-#### 🗃️ Modelagem de Banco de Dados
-| Projeto | Descrição | Link |
-| :--- | :--- | :---: |
-| **Sistema de Gestão Escolar** | Modelagem ER e Scripts SQL para uma instituição de ensino. | [Ver Projeto](./projeto-banco-dados/) |
  
 #### 🤖 Inteligência Artificial
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Projeto Engenharia Reversa** |  Esse projeto tem como objetivo reconstruir um website funcional a partir da observação da interface externa do website StackEdit, sem visualizar o código-fonte original ou fornecer o link para a IA. | [Ver Projeto](https://github.com/MarcelaNascimento5/portifolio_marcela_nascimento_silva/blob/main/Engenharia%20Reversa.pdf) |
-| **Projeto MVP+** | Apartir da clonagem feita na Engenharia Reversa, esse projeto tem como objetivo aplicar melhorias no novo website. | [Ver Projeto](https://github.com/MarcelaNascimento5/PRISMA.git) |
-| **Projeto XML** | Esse projeto tem como objetivo realizar uma análise comparativa de diferentes Ias . | [Ver Projeto](https://github.com/MarcelaNascimento5/portifolio_marcela_nascimento_silva/blob/main/XML.pdf) |
+| **Projeto Engenharia Reversa** |  Esse projeto tem como objetivo reconstruir um website funcional a partir da observação da interface externa do website StackEdit, sem visualizar o código-fonte original ou fornecer o link para a IA. | [Ver Projeto](https://github.com/MarcelaNascimento5/portifolio_marcela_nascimento_silva/tree/main/Projeto-Engenharia-Reversa) |
+| **Projeto MVP+** | Apartir da clonagem feita na Engenharia Reversa, esse projeto tem como objetivo aplicar melhorias no novo website. | [Ver Projeto](https://github.com/MarcelaNascimento5/portifolio_marcela_nascimento_silva/tree/main/prisma) |
+| **Projeto XML** | Esse projeto tem como objetivo realizar uma análise comparativa de diferentes Ias . | [Ver Projeto](https://github.com/MarcelaNascimento5/portifolio_marcela_nascimento_silva/tree/main/Projeto-XML) |
  
 ---
  
