@@ -11,7 +11,7 @@
 ---
  
 ### 👨‍💻 Sobre
-Atualmente cursando o 2º período de Análise e Desenvolvimento de Sistemas na Universidade da Cidade de São Paulo (UNICID). Sou apaixonada por resolver problemas através da tecnologia e possuo foco em Engenharia de IA.
+Sou aluna do 2º período de Análise e Desenvolvimento de Sistemas na UNICID, com forte interesse em Engenharia de Inteligência Artificial. Busco aplicar lógica, programação e pensamento analítico para transformar desafios reais em soluções digitais eficientes. Valorizo trabalho em equipe, boas práticas de desenvolvimento e a construção de modelos responsáveis e interpretáveis.
  
 * **Habilidades Técnicas:** Python, Java, SQL, HTML, CSS.
 * **Habilidades Socioemocionais:** Trabalho em equipe, comunicação assertiva e pensamento crítico.
@@ -30,6 +30,7 @@ Atualmente cursando o 2º período de Análise e Desenvolvimento de Sistemas na 
  
 #### 🗄️ Banco de Dados
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
  
 #### 🤖 Inteligência Artificial & Ciência de Dados
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
@@ -47,10 +48,6 @@ Atualmente cursando o 2º período de Análise e Desenvolvimento de Sistemas na 
 | **Projeto MVP+** | Apartir da clonagem feita na Engenharia Reversa, esse projeto tem como objetivo aplicar melhorias no novo website. | [Ver Projeto](https://github.com/MarcelaNascimento5/portifolio_marcela_nascimento_silva/tree/main/prisma) |
 | **Projeto XML** | Esse projeto tem como objetivo realizar uma análise comparativa de diferentes Ias . | [Ver Projeto](https://github.com/MarcelaNascimento5/portifolio_marcela_nascimento_silva/tree/main/Projeto-XML) |
  
----
+
  
-### 🏗 Estrutura do Repositório
-Abaixo, a organização deste repositório para facilitar a navegação:
- 
-- `root/`: Arquivo de apresentação principal.
-- `/projeto-nome/`: Pasta contendo o código-fonte, documentação e o README específico do projeto acadêmico.
+
