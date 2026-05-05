@@ -227,4 +227,4 @@ MIT License — sinta-se livre para usar, modificar e distribuir este projeto.
 
 ---
 
-*Desenvolvido com ❤️ usando Manus AI + Expo + React Native + Jitsi Meet*
+
