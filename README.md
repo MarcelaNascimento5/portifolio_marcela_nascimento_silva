@@ -15,7 +15,7 @@ Sou aluna do 2º período de Análise e Desenvolvimento de Sistemas na UNICID, c
  
 * **Habilidades Técnicas:** Python, Java, SQL, HTML, CSS.
 * **Habilidades Socioemocionais:** Trabalho em equipe, comunicação assertiva e pensamento crítico.
-* **Experiência/Projetos Relevantes:** Atuei em [Projeto de Iniciação Científica/Estágio] onde desenvolvi [resultado principal].
+
  
 ---
  
@@ -46,8 +46,8 @@ Sou aluna do 2º período de Análise e Desenvolvimento de Sistemas na UNICID, c
 | :--- | :--- | :---: |
 | **Projeto Engenharia Reversa** |  Esse projeto tem como objetivo reconstruir um website funcional a partir da observação da interface externa do website StackEdit, sem visualizar o código-fonte original ou fornecer o link para a IA. | [Ver Projeto](https://github.com/MarcelaNascimento5/portifolio_marcela_nascimento_silva/tree/main/Projeto-Engenharia-Reversa) |
 | **Projeto MVP+** | Apartir da clonagem feita na Engenharia Reversa, esse projeto tem como objetivo aplicar melhorias no novo website. | [Ver Projeto](https://github.com/MarcelaNascimento5/portifolio_marcela_nascimento_silva/tree/main/prisma) |
-| **Projeto XML** | Esse projeto tem como objetivo realizar uma análise comparativa de diferentes Inteligencias Artificiais. | [Ver Projeto](https://github.com/MarcelaNascimento5/portifolio_marcela_nascimento_silva/tree/main/Projeto-XML) |
-| **Projeto Desenvolvimento de App de Videoconferência** | Esse projeto tem como objetivo integrar tecnologias de Inteligência Artificial generativa (Manus AI) com frameworks de comunicação open-source (Jitsi Meet) para criar uma solução funcional de videoconferência para Android, focando em usabilidade e criatividade. | [Ver Projeto](https://github.com/MarcelaNascimento5/portifolio_marcela_nascimento_silva/tree/main/Projeto-XML) |
+| **Projeto XML** | Esse projeto tem como objetivo realizar uma análise comparativa de diferentes Inteligências Artificiais. | [Ver Projeto](https://github.com/MarcelaNascimento5/portifolio_marcela_nascimento_silva/tree/main/Projeto-XML) |
+| **Projeto Desenvolvimento de App de Videoconferência** | Esse projeto tem como objetivo integrar tecnologias de Inteligência Artificial generativa (Manus AI) com frameworks de comunicação open-source (Jitsi Meet) para criar uma solução funcional de videoconferência para Android, focando em usabilidade e criatividade. | [Ver Projeto](https://github.com/MarcelaNascimento5/portfolio-marcela-nascimento-silva/tree/main/Projeto-Desenvolvimento-de-App) |
  
 
  
