@@ -48,6 +48,7 @@ Sou aluna do 2º período de Análise e Desenvolvimento de Sistemas na UNICID, c
 | **Projeto MVP+** | Apartir da clonagem feita na Engenharia Reversa, esse projeto tem como objetivo aplicar melhorias no novo website. | [Ver Projeto](https://github.com/MarcelaNascimento5/portifolio_marcela_nascimento_silva/tree/main/prisma) |
 | **Projeto XML** | Esse projeto tem como objetivo realizar uma análise comparativa de diferentes Inteligências Artificiais. | [Ver Projeto](https://github.com/MarcelaNascimento5/portifolio_marcela_nascimento_silva/tree/main/Projeto-XML) |
 | **Projeto Desenvolvimento de App de Videoconferência** | Esse projeto tem como objetivo integrar tecnologias de Inteligência Artificial generativa (Manus AI) com frameworks de comunicação open-source (Jitsi Meet) para criar uma solução funcional de videoconferência para Android, focando em usabilidade e criatividade. | [Ver Projeto](https://github.com/MarcelaNascimento5/portfolio-marcela-nascimento-silva/tree/main/Projeto-Desenvolvimento-de-App) |
+| **Projeto Música Ia** | Esse projeto tem como objetivo explorar o potencial das ferramentas de IA Generativa para a criação de conteúdo artístico. | [Ver Projeto](https://github.com/MarcelaNascimento5/portfolio-marcela-nascimento-silva/tree/main/projeto-musica-ia) |
  
 
  
