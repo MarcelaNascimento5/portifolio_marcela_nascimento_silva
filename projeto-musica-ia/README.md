@@ -19,16 +19,11 @@ O assistente (Gems) utilizado para modelagem das letras pode ser acessado atrav�
 ## 🎧 Músicas Geradas
 | Faixa | Título | Estilo/Referência | Link do Áudio |
 | :--- | :--- | :--- | :--- |
-| 01 | [Epiphanies] | [Pop-R&B com batida sarcástica e vocais suaves.] | [Arquivo MP3](./audio/1.Epiphanies.mp3) |
-| 02 | [Weight of the Ghost] | [Pop-R&B suave com uma linha de baixo marcante e vocais sussurrados.
-] | [Arquivo MP3](./audio/2.WeightoftheGhost.mp3) |
-| 03 | [Junior High Diploma
-] | [Pop-Folk com um violão acústico e percussão leve, no estilo "Pop Atrevido" e irônico.] | [Arquivo MP3](./audio/3.JuniorHighDiploma.mp3) |
-| 04 | [Cardiac Arrest
-] | [Pop contemporâneo com sintetizadores suaves e uma letra confessional, mantendo o tom de "Pop Atrevido" mesmo na vulnerabilidade.
-] | [Arquivo MP3](./audio/4.CardiacArrest.mp3) |
-| 05 | [Architect of the Wreckage] | [Pop-R&B com um toque de R&B leve e uma produção sofisticada, misturando ironia e autoconsciência.
-] | [Arquivo MP3](./audio/5.ArchitectoftheWreckage.mp3) |
+| 01 | Epiphanies | Pop-R&B com batida sarcástica e vocais suaves. | [Arquivo MP3](./audio/1.Epiphanies.mp3) |
+| 02 | Weight of the Ghost | Pop-R&B suave com uma linha de baixo marcante e vocais sussurrados. | [Arquivo MP3](./audio/2.WeightoftheGhost.mp3) |
+| 03 | Junior High Diploma | Pop-Folk com um violão acústico e percussão leve, no estilo "Pop Atrevido" e irônico. | [Arquivo MP3](./audio/3.JuniorHighDiploma.mp3) |
+| 04 | Cardiac Arrest | Pop contemporâneo com sintetizadores suaves e uma letra confessional, mantendo o tom de "Pop Atrevido" mesmo na vulnerabilidade. | [Arquivo MP3](./audio/4.CardiacArrest.mp3) |
+| 05 | Architect of the Wreckage | Pop-R&B com um toque de R&B leve e uma produção sofisticada, misturando ironia e autoconsciência. | [Arquivo MP3](./audio/5.ArchitectoftheWreckage.mp3) |
  
 ## 📄 Processo de Criação
 1. **Curadoria:** Seleção de 10 letras do artista base.
