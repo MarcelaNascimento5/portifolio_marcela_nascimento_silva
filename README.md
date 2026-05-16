@@ -1,3 +1,4 @@
+
 # Marcela Nascimento Silva
 > Estudante de Análise e Desenvolvimento de Sistemas
  
@@ -6,13 +7,12 @@
 ### 📫 Contato & Redes Sociais
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcela-nascimento-silva-499343385/)
 [![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nascimentomarcela30@gmail.com)
-[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)]([Currículo_Marcela_Nascimento_Silva.pdf](https://github.com/user-attachments/files/27838672/Curriculo_Marcela_Nascimento_Silva.pdf)
-)
+[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://github.com/user-attachments/files/27838742/Curriculo_Marcela_Nascimento_Silva.pdf)
  
 ---
  
 ### 👨‍💻 Sobre
-Sou aluna do 2º período de Análise e Desenvolvimento de Sistemas na UNICID, com forte interesse em Engenharia de Inteligência Artificial. Busco aplicar lógica, programação e pensamento analítico para transformar desafios reais em soluções digitais eficientes. Valorizo trabalho em equipe, boas práticas de desenvolvimento e a construção de modelos responsáveis e interpretáveis.
+Sou aluna do 2º período de Análise e Desenvolvimento de Sistemas na UNICID, com interesse em Engenharia de Inteligência Artificial. Busco aplicar lógica, programação e pensamento analítico para criar soluções digitais eficientes e responsáveis. Valorizo o trabalho em equipe, boas práticas de desenvolvimento e a construção de modelos interpretáveis que gerem impacto positivo na sociedade.
  
 * **Habilidades Técnicas:** Python, Java, SQL, HTML, CSS.
 * **Habilidades Socioemocionais:** Trabalho em equipe, comunicação assertiva e pensamento crítico.
