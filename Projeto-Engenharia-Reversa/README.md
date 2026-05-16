@@ -1,4 +1,4 @@
-# 🕵️‍♂️ Dossier: Engenharia Reversa e Ética na Era da IA
+# 🕵️‍♂️ SM4 - Engenharia Reversa 
 
 ## 📝 Descrição do Projeto
 Este projeto apresenta um ensaio analítico focado nos impactos do "Desenvolvimento Assistido por IA" na engenharia de software contemporânea e na formação do profissional júnior. A pesquisa investiga a transição do esforço de desenvolvimento: ao invés da codificação sintática pura, o foco passa a ser o planejamento da descrição lógica e funcional, uma característica marcante da engenharia reversa sem visualização do código-fonte. 
