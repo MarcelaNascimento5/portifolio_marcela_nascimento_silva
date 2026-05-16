@@ -1,4 +1,4 @@
-# 🖋️ PRISMA - Editor Markdown Minimalista
+# 🖋️ SM5 - Do Clone ao Produto Mínimo Viável (MVP+)  
  
 ## 📝 Descrição do Projeto
 O **PRISMA** é um editor de Markdown projetado para ser "jovem e divertido", quebrando a monotonia dos editores técnicos tradicionais. Ele oferece uma experiência de escrita fluida com visualização em tempo real, permitindo que criadores de conteúdo e desenvolvedores foquem na estrutura do texto enquanto acompanham o resultado final instantaneamente.
