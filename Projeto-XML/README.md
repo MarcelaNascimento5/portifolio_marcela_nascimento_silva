@@ -1,4 +1,4 @@
-# 🚀 Batalha de Modelos & Engenharia de Prompt (XML)
+# 🚀 SM3 - Batalha de Modelos & Engenharia de Prompt (XML)  
 
 ## 📝 Descrição do Projeto
 Este projeto apresenta uma análise comparativa de desempenho entre diversos modelos de **Inteligência Artificial** utilizando técnicas de **Engenharia de Prompt**[cite: 1, 2]. [cite_start]O objetivo central foi avaliar a capacidade de diferentes LLMs em interpretar um **Prompt Estruturado em XML** para gerar uma página HTML *Single Page* com CSS integrado[cite: 4, 6].
