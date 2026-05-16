@@ -7,6 +7,12 @@ Desenvolvido com uma estética vibrante (Branco, Verde Limão, Rosa e Azul), o s
  
 <img width="1365" height="585" alt="image" src="https://github.com/user-attachments/assets/f910bd08-fd92-422c-abb1-3d4646dd5431" />
 Figura 1: Interface principal do PRISMA exibindo o editor e o preview simultâneos.
+
+### URL de Pré-visualização (Web)
+
+```
+https://ai.studio/apps/dd1ca8f5-030d-45e4-9edc-02b596b186b3?fullscreenApplet=true
+```
  
 ## 🚀 Tecnologias Utilizadas
 * **Linguagens:** TypeScript, HTML5, CSS3
