@@ -1,4 +1,4 @@
-# FitCoach — Aulas Remotas com Personal Trainers
+# SM7 - Desenvolvimento de App de Videoconferência com Manus AI e Jitsi  
 
 > **Conecte-se ao seu personal trainer favorito em segundos, de qualquer lugar, via videochamada ao vivo.**
 
